@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JGR College | جامعة غوثية رضوية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&display=swap');
+        :root { --emerald: #064e3b; --gold: #d4af37; }
+        body { font-family: 'Inter', sans-serif; background-color: #fcfbf7; }
+        .arabic-font { font-family: 'Amiri', serif; }
+        .hero-gradient { background: linear-gradient(rgba(6, 78, 59, 0.9), rgba(6, 78, 59, 0.9)), url('https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?q=80&w=2070&auto=format&fit=crop'); background-size: cover; }
+    </style>
+</head>
+<body>
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-emerald-900">JGR <span class="text-gold-600">COLLEGE</span></div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="index.html" class="text-emerald-800 border-b-2 border-gold">Home</a>
+                <a href="syllabus.html" class="hover:text-gold transition">Syllabus</a>
+                <a href="#about" class="hover:text-gold transition">About Us</a>
+            </div>
+            <div class="arabic-font text-2xl text-emerald-800">جامعة غوثية رضوية</div>
+        </div>
+    </nav>
+
+    <header class="hero-gradient h-[70vh] flex items-center justify-center text-center text-white px-4">
+        <div class="animate__animated animate__fadeInUp">
+            <h1 class="text-5xl md:text-7xl mb-4 arabic-font">جامعة غوثية رضوية</h1>
+            <h2 class="text-2xl md:text-3xl font-light tracking-widest uppercase">JGR College</h2>
+            <p class="mt-6 max-w-2xl mx-auto text-gray-200">Preserving the legacy of Imam Ahmad Rida Khan through classical scholarship and modern excellence.</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 max-w-6xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="animate__animated animate__fadeInLeft">
+                <h3 class="text-gold font-semibold uppercase tracking-widest mb-2">Our Leadership</h3>
+                <h2 class="text-4xl font-bold text-emerald-900 mb-6">Expert Guidance</h2>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    Our esteemed Headteacher brings over **25 years of teaching experience**. A distinguished graduate of the world-renowned **Jamia Al Ashrafia, Mubarakpur**, he is a master of the Islamic sciences.
+                </p>
+                <ul class="grid grid-cols-2 gap-4 text-emerald-800 font-semibold">
+                    <li>• Fiqh (Jurisprudence)</li>
+                    <li>• Hadith (Prophetic Traditions)</li>
+                    <li>• Tafsir (Exegesis)</li>
+                    <li>• Arabic Grammar</li>
+                </ul>
+            </div>
+            <div class="bg-emerald-900 p-8 rounded-2xl shadow-2xl rotate-2 animate__animated animate__fadeInRight">
+                <div class="border-2 border-gold p-4 rounded-xl text-center text-white">
+                    <p class="italic text-lg">"Providing a path of light for the next generation of Scholars in the North West."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-emerald-900 py-20 text-white">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-8">Our Doctrine & Mission</h2>
+            <p class="text-xl leading-relaxed text-gray-300">
+                Our education is firmly rooted in the doctrine of **Imam Ahmad Rida Khan** and the Pious Predecessors (*As-Salaf as-Salihin*). We are dedicated to providing high-level education for **both men and women**.
+            </p>
+            <div class="mt-10 grid md:grid-cols-2 gap-8">
+                <div class="p-6 border border-emerald-700 rounded-lg">
+                    <h4 class="text-gold font-bold mb-2">North West Leadership</h4>
+                    <p>Our graduates are currently leading as young imams and scholars across the North West region.</p>
+                </div>
+                <div class="p-6 border border-emerald-700 rounded-lg">
+                    <h4 class="text-gold font-bold mb-2">Inclusivity</h4>
+                    <p>Dedicated departments for male and female students following classical curricula.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 text-sm">
+        &copy; 2026 JGR College - Jamia Ghousia Rizvia. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
